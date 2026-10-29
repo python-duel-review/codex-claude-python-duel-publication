@@ -1,0 +1,613 @@
+{
+  "status": "completed",
+  "published": false,
+  "schema_version": 1,
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "platform": "Windows",
+    "dependencies": "standard_library_only"
+  },
+  "base_seed": 314159,
+  "runner_sha256": "3facf6fc394d57497aa02917900a607ed0766b74bc629fda17446e9a4a851f6c",
+  "source_archive_sha256": "e6f041825b4e51e905bd2bf8a432654f1eee9f9493491128c7e0f1222e873785",
+  "source_inventory": {
+    "round_01_claude.py": {
+      "sha256": "b7ca580dffefb2a6e5dad7dab57223c14729722da5b31b71072796282a0f88f0",
+      "bytes": 1507,
+      "physical_lines": 45,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_01_codex.py": {
+      "sha256": "c8ca36b8783d31849e2f1c0b4ce9850e9beca4308376505aef128c64be3f0147",
+      "bytes": 1628,
+      "physical_lines": 51,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_01_task.md": {
+      "sha256": "82be17e2fd8ddffd668e10e01a576708bc044cb29d74056766e74eb15ed2a336",
+      "bytes": 1046
+    },
+    "round_02_claude.py": {
+      "sha256": "0b6b073b32b1febfcbd432c66278db004ef13809844f78cc5fe5483919947851",
+      "bytes": 2200,
+      "physical_lines": 62,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_02_codex.py": {
+      "sha256": "bd8874c0e1789b832eb79ff1e23901f08cecb39d0ef99fb7118a605db88ba3b3",
+      "bytes": 2214,
+      "physical_lines": 70,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_02_task.md": {
+      "sha256": "bd2a0ceb3fd459961a14fd412f94dd4a37193b78cca44bbc7025ce846f2e79ef",
+      "bytes": 1120
+    },
+    "round_03_claude.py": {
+      "sha256": "30837a63c14aad72c16ada3834da1c3e2a630c2d937dc6e3cea577fd03372004",
+      "bytes": 1933,
+      "physical_lines": 59,
+      "imports": [
+        "collections"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_03_codex.py": {
+      "sha256": "3245114f1f9b090e1de14d1848f4a5e3a72e6616ce87aa37272efd55e55b7bfd",
+      "bytes": 2047,
+      "physical_lines": 68,
+      "imports": [
+        "collections"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_03_task.md": {
+      "sha256": "15dd6d2c83fc76f04478ff826ddf78556d031a4c0ec1a4fe2a55864aeeb067b2",
+      "bytes": 1208
+    },
+    "round_04_claude.py": {
+      "sha256": "b7587e7f20511e3b54c306a1f283c21959586744a3cedf9ca7aac60fe0bc5b0d",
+      "bytes": 1436,
+      "physical_lines": 38,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_04_codex.py": {
+      "sha256": "d89809652aa8c0872ae46a7da62390ff4212428f3d90358898877fd6522b92fd",
+      "bytes": 1624,
+      "physical_lines": 43,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_04_task.md": {
+      "sha256": "cf09866060fae4d2eefd069e506f3d6c71c04d55ecfbaa2147e17a014c432710",
+      "bytes": 1153
+    },
+    "round_05_claude.py": {
+      "sha256": "14d473128326de84fdff9802c845123f94bdcd1afae1386c819aa1447f7bf0f6",
+      "bytes": 1541,
+      "physical_lines": 49,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_05_codex.py": {
+      "sha256": "b6b1e2057db688932de738545bbef7d1b4f7007984c1ed216502340bcbebfa00",
+      "bytes": 1554,
+      "physical_lines": 49,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_05_task.md": {
+      "sha256": "34c34b6f8b1f7559bf5958ca612508c5f623d3eb56f3207f1ac92980b18d43c1",
+      "bytes": 1060
+    },
+    "round_06_claude.py": {
+      "sha256": "909a90c2f743daed4d3c44791e022eb96aba08c80c414a62a863c72bf9e49989",
+      "bytes": 1388,
+      "physical_lines": 44,
+      "imports": [
+        "collections"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_06_codex.py": {
+      "sha256": "1d8af1148c10bf90b35019d76e67f6af6e5d7ad3d5d4df187a2e07a8c472c78a",
+      "bytes": 1390,
+      "physical_lines": 45,
+      "imports": [
+        "collections"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_06_task.md": {
+      "sha256": "93a712fd52c300fa39a8228d9b72fd76b73deae578469e0d5db9a517516ccfa4",
+      "bytes": 931
+    },
+    "round_07_claude.py": {
+      "sha256": "8f0094abd0a394e5cd2a327f0dd4108b356f01d08a772311cd511642704ad8d8",
+      "bytes": 2022,
+      "physical_lines": 53,
+      "imports": [
+        "heapq"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_07_codex.py": {
+      "sha256": "c55a9cf6c9a683dbad1974eb2cccd7c238428b5caa9b4967759d05e9b097d9c2",
+      "bytes": 2147,
+      "physical_lines": 62,
+      "imports": [
+        "heapq"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_07_task.md": {
+      "sha256": "407a61aa0bed574365076c7b00612c4d615b93a23fa20a63016bda090b5f08f8",
+      "bytes": 1199
+    },
+    "round_08_claude.py": {
+      "sha256": "48901153aaff615005d04b1c229670f01eec4f044f87d457983acefb1d89a361",
+      "bytes": 1330,
+      "physical_lines": 38,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_08_codex.py": {
+      "sha256": "aed78c6077b7dab3a1220d67ffac66c2bc6a94d5d9d3b15a4cbe5132ea2e183d",
+      "bytes": 1713,
+      "physical_lines": 55,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_08_task.md": {
+      "sha256": "d74e5dcd6ecef86eda831d72d6d7bfd2d968448fe83e6a2853e8fc9e418611b8",
+      "bytes": 1024
+    },
+    "round_09_claude.py": {
+      "sha256": "31fb5337f0d181356840f5b6c9def7d055d3282a00bbc3d0bc2786773870b5ff",
+      "bytes": 1551,
+      "physical_lines": 53,
+      "imports": [
+        "itertools"
+      ],
+      "within_80_line_limit": true
+    },
+    "round_09_codex.py": {
+      "sha256": "1629e3db17c9d2218ffe5992466f0a2e983b9d02576f516652254c287d39ee7a",
+      "bytes": 1394,
+      "physical_lines": 45,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_09_task.md": {
+      "sha256": "a9b5e443e174de77f81561ab0d12a382e6c634e7190bebcb378703b5eb1f62af",
+      "bytes": 1113
+    },
+    "round_10_claude.py": {
+      "sha256": "2d11adf3b093f0edd7dddd8e038177570dd2b352e385d017f4e5664f674fbdbe",
+      "bytes": 934,
+      "physical_lines": 23,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_10_codex.py": {
+      "sha256": "d00b24892e945e773b466a048463efaa913f5f7b75e3b11e3b0a448ec9c50eb2",
+      "bytes": 945,
+      "physical_lines": 25,
+      "imports": [],
+      "within_80_line_limit": true
+    },
+    "round_10_task.md": {
+      "sha256": "9616e3bb73cd600008826fc65b3d421a3b4f08ecf070645ff5206a396275cedc",
+      "bytes": 944
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "function": "free_slots",
+      "seed": 314160,
+      "cases_per_contestant": 1299,
+      "cases_sha256": "a1d4e7c99b416f4f300b277ee70725800be03290f55a3c179f2d45898deaca4b",
+      "case_categories": {
+        "exhaustive_interval_subsets": 1024,
+        "seeded_full_domain": 250,
+        "boundary": 4,
+        "explicit_invalid": 21
+      },
+      "expected_ValueError_cases": 21,
+      "expected_return_cases": 1278,
+      "expected_None_cases": 0,
+      "oracle_self_checks": 2,
+      "contestants": {
+        "codex": {
+          "passed": 1299,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 1299,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.2058
+    },
+    {
+      "round": 2,
+      "function": "solve_sudoku",
+      "seed": 314161,
+      "cases_per_contestant": 1632,
+      "cases_sha256": "60b606af7c07a0d967fe70c700d9cd9a7c84f5b4f300b108862fe21e88068441",
+      "case_categories": {
+        "exhaustive_first_row": 625,
+        "all_complete_solutions": 288,
+        "seeded_solution_clues": 400,
+        "seeded_locally_consistent_clues": 300,
+        "given_unsatisfiable": 1,
+        "explicit_invalid": 18
+      },
+      "expected_ValueError_cases": 434,
+      "expected_return_cases": 1198,
+      "expected_None_cases": 134,
+      "oracle_self_checks": 3,
+      "contestants": {
+        "codex": {
+          "passed": 1632,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 1632,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.5331
+    },
+    {
+      "round": 3,
+      "function": "escape_maze",
+      "seed": 314162,
+      "cases_per_contestant": 952,
+      "cases_sha256": "2c44b1dd827a75302227818ce57c2d3273106eb23fd15e6dcbe90012979a5287",
+      "case_categories": {
+        "exhaustive_grids_up_to_3_by_3": 682,
+        "seeded_full_domain": 250,
+        "maximum_open_dimensions": 3,
+        "explicit_invalid": 17
+      },
+      "expected_ValueError_cases": 17,
+      "expected_return_cases": 935,
+      "expected_None_cases": 775,
+      "oracle_self_checks": 2,
+      "contestants": {
+        "codex": {
+          "passed": 952,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 952,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.1421
+    },
+    {
+      "round": 4,
+      "function": "best_change",
+      "seed": 314163,
+      "cases_per_contestant": 1483,
+      "cases_sha256": "289bfffa4798cc5c06b5318087399e770762e93a0b88b48789a0ee879c682101",
+      "case_categories": {
+        "exhaustive_small_denominations": 1197,
+        "seeded_full_domain": 250,
+        "boundary_and_ties": 20,
+        "explicit_invalid": 16
+      },
+      "expected_ValueError_cases": 16,
+      "expected_return_cases": 1467,
+      "expected_None_cases": 237,
+      "oracle_self_checks": 4,
+      "contestants": {
+        "codex": {
+          "passed": 1483,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 1483,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.171
+    },
+    {
+      "round": 5,
+      "function": "decode_message",
+      "seed": 314164,
+      "cases_per_contestant": 1992,
+      "cases_sha256": "4c2e7354296b0338fa9387486078ab4a6ed1f716b7b43ed08a66ec49a47bc21d",
+      "case_categories": {
+        "exhaustive_short_syntax": 1365,
+        "seeded_grammar_including_overflow": 350,
+        "seeded_raw_syntax": 250,
+        "length_nesting_and_grammar_boundaries": 9,
+        "explicit_invalid": 18
+      },
+      "expected_ValueError_cases": 1679,
+      "expected_return_cases": 313,
+      "expected_None_cases": 0,
+      "oracle_self_checks": 3,
+      "contestants": {
+        "codex": {
+          "passed": 1992,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 1992,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.0541
+    },
+    {
+      "round": 6,
+      "function": "min_cover",
+      "seed": 314165,
+      "cases_per_contestant": 2272,
+      "cases_sha256": "5a82a79d69253f23837e5cf87090ee7204174b56106d3a2b4bdcc74cb0aea7f2",
+      "case_categories": {
+        "exhaustive_binary_strings": 1905,
+        "seeded_full_domain": 350,
+        "boundary_examples_and_ties": 5,
+        "explicit_invalid": 12
+      },
+      "expected_ValueError_cases": 12,
+      "expected_return_cases": 2260,
+      "expected_None_cases": 561,
+      "oracle_self_checks": 4,
+      "contestants": {
+        "codex": {
+          "passed": 2272,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 2272,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.3248
+    },
+    {
+      "round": 7,
+      "function": "task_order",
+      "seed": 314166,
+      "cases_per_contestant": 4898,
+      "cases_sha256": "be9530ccde75dd4be27339f3fa7d829e499de7c22cf0a8ed4f81e3309592b321",
+      "case_categories": {
+        "exhaustive_graphs": 4626,
+        "seeded_full_domain": 250,
+        "boundary_duplicates_and_list_pairs": 4,
+        "explicit_invalid": 18
+      },
+      "expected_ValueError_cases": 18,
+      "expected_return_cases": 4880,
+      "expected_None_cases": 4246,
+      "oracle_self_checks": 2,
+      "contestants": {
+        "codex": {
+          "passed": 4898,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 4898,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 1.1484
+    },
+    {
+      "round": 8,
+      "function": "wildcard_match",
+      "seed": 314167,
+      "cases_per_contestant": 5535,
+      "cases_sha256": "2e32e7a84122d53ab9653a6a29c8698bf10ddfd569820ec11325c2477137f1a4",
+      "case_categories": {
+        "exhaustive_short_texts_and_patterns": 5115,
+        "seeded_full_domain": 400,
+        "boundary_and_ties": 7,
+        "explicit_invalid": 13
+      },
+      "expected_ValueError_cases": 13,
+      "expected_return_cases": 5522,
+      "expected_None_cases": 0,
+      "oracle_self_checks": 4,
+      "contestants": {
+        "codex": {
+          "passed": 5535,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 5535,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.2388
+    },
+    {
+      "round": 9,
+      "function": "repair_brackets",
+      "seed": 314168,
+      "cases_per_contestant": 3651,
+      "cases_sha256": "07ad65d82e6f489496ead0401e3882895eab149381f24330d28e9e397960b1e3",
+      "case_categories": {
+        "exhaustive_short_bracket_texts": 3280,
+        "seeded_full_domain": 350,
+        "maximum_length_examples_and_ties": 10,
+        "explicit_invalid": 11
+      },
+      "expected_ValueError_cases": 11,
+      "expected_return_cases": 3640,
+      "expected_None_cases": 0,
+      "oracle_self_checks": 367,
+      "contestants": {
+        "codex": {
+          "passed": 3651,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 3651,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.2346
+    },
+    {
+      "round": 10,
+      "function": "max_product",
+      "seed": 314169,
+      "cases_per_contestant": 4426,
+      "cases_sha256": "d3eeaa6dbd50dba572e669ec7f059c539558f9c46256df8027b5e37994b02625",
+      "case_categories": {
+        "exhaustive_small_integer_arrays": 3905,
+        "seeded_full_domain": 500,
+        "maximum_length_and_ties": 8,
+        "explicit_invalid": 13
+      },
+      "expected_ValueError_cases": 13,
+      "expected_return_cases": 4413,
+      "expected_None_cases": 0,
+      "oracle_self_checks": 3,
+      "contestants": {
+        "codex": {
+          "passed": 4426,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        },
+        "claude": {
+          "passed": 4426,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "input_mutations": 0,
+          "original_self_test_module": "passed",
+          "failures": []
+        }
+      },
+      "elapsed_seconds_including_oracles_and_both_contestants": 0.2556
+    }
+  ],
+  "totals_per_contestant": {
+    "codex": {
+      "passed": 28140,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "input_mutations": 0
+    },
+    "claude": {
+      "passed": 28140,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "input_mutations": 0
+    }
+  },
+  "total_independent_submission_case_executions": 56280,
+  "elapsed_seconds_including_process_startup": 5.2153
+}

@@ -1,0 +1,248 @@
+{
+  "all_detected": true,
+  "synthetic_probes": 11,
+  "contestant_cases_in_this_check": 0,
+  "probes": [
+    {
+      "round": 1,
+      "synthetic_bug": "ignores_partial_free_intervals",
+      "detected": true,
+      "synthetic_function_calls": 2,
+      "first_detecting_case": {
+        "case_id": "r01-000002",
+        "category": "exhaustive_interval_subsets",
+        "arguments": {
+          "tuple": [
+            [
+              {
+                "tuple": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            0,
+            4
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 2,
+      "synthetic_bug": "largest_instead_of_smallest_sudoku",
+      "detected": true,
+      "synthetic_function_calls": 1,
+      "first_detecting_case": {
+        "case_id": "r02-000001",
+        "category": "exhaustive_first_row",
+        "arguments": {
+          "tuple": [
+            [
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 3,
+      "synthetic_bug": "reverse_lexicographic_shortest_path",
+      "detected": true,
+      "synthetic_function_calls": 19,
+      "first_detecting_case": {
+        "case_id": "r03-000019",
+        "category": "exhaustive_grids_up_to_3_by_3",
+        "arguments": {
+          "tuple": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ]
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 4,
+      "synthetic_bug": "greedy_coin_selection",
+      "detected": true,
+      "synthetic_function_calls": 100,
+      "first_detecting_case": {
+        "case_id": "r04-000100",
+        "category": "exhaustive_small_denominations",
+        "arguments": {
+          "tuple": [
+            [
+              3,
+              2
+            ],
+            4
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 5,
+      "synthetic_bug": "decoder_ignores_expansion_limit",
+      "detected": true,
+      "synthetic_function_calls": 1367,
+      "first_detecting_case": {
+        "case_id": "r05-001367",
+        "category": "seeded_grammar_including_overflow",
+        "arguments": {
+          "tuple": [
+            "7[a9[b]]4[4[4[zz]z8[]]z9[2[z1[a]]a7[1[]b]]]"
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 6,
+      "synthetic_bug": "latest_instead_of_earliest_cover",
+      "detected": true,
+      "synthetic_function_calls": 140,
+      "first_detecting_case": {
+        "case_id": "r06-000140",
+        "category": "exhaustive_binary_strings",
+        "arguments": {
+          "tuple": [
+            "aba",
+            "ab"
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 7,
+      "synthetic_bug": "largest_instead_of_smallest_task_order",
+      "detected": true,
+      "synthetic_function_calls": 3,
+      "first_detecting_case": {
+        "case_id": "r07-000003",
+        "category": "exhaustive_graphs",
+        "arguments": {
+          "tuple": [
+            [
+              "b",
+              "a"
+            ],
+            []
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 8,
+      "synthetic_bug": "partial_instead_of_whole_text_match",
+      "detected": true,
+      "synthetic_function_calls": 342,
+      "first_detecting_case": {
+        "case_id": "r08-000342",
+        "category": "exhaustive_short_texts_and_patterns",
+        "arguments": {
+          "tuple": [
+            "a",
+            ""
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 9,
+      "synthetic_bug": "largest_instead_of_smallest_bracket_repair",
+      "detected": true,
+      "synthetic_function_calls": 57,
+      "first_detecting_case": {
+        "case_id": "r09-000057",
+        "category": "exhaustive_short_bracket_texts",
+        "arguments": {
+          "tuple": [
+            "()a)"
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 10,
+      "synthetic_bug": "latest_instead_of_earliest_product_indices",
+      "detected": true,
+      "synthetic_function_calls": 8,
+      "first_detecting_case": {
+        "case_id": "r10-000008",
+        "category": "exhaustive_small_integer_arrays",
+        "arguments": {
+          "tuple": [
+            [
+              -2,
+              0
+            ]
+          ]
+        },
+        "input_mutation_detected": false
+      }
+    },
+    {
+      "round": 1,
+      "synthetic_bug": "mutates_booking_input_after_computing_correct_output",
+      "detected": true,
+      "synthetic_function_calls": 2,
+      "first_detecting_case": {
+        "case_id": "r01-000002",
+        "category": "exhaustive_interval_subsets",
+        "arguments": {
+          "tuple": [
+            [
+              {
+                "tuple": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            0,
+            4
+          ]
+        },
+        "input_mutation_detected": true
+      }
+    }
+  ]
+}

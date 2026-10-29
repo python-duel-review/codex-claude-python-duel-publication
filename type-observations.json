@@ -1,0 +1,97 @@
+{
+  "scored": false,
+  "reason": "Subclass policy is not consistently explicit in the supplied task wording.",
+  "supplementary_submission_calls": 20,
+  "observations": [
+    {
+      "round": 1,
+      "probe": "int_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 2,
+      "probe": "int_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 3,
+      "probe": "int_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 4,
+      "probe": "int_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "ValueError",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 5,
+      "probe": "str_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 6,
+      "probe": "str_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 7,
+      "probe": "str_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 8,
+      "probe": "str_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 9,
+      "probe": "str_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "accepted",
+        "claude": "ValueError"
+      }
+    },
+    {
+      "round": 10,
+      "probe": "int_subclass",
+      "scored": false,
+      "outcomes": {
+        "codex": "ValueError",
+        "claude": "ValueError"
+      }
+    }
+  ]
+}
